@@ -25,4 +25,5 @@ class TestPrimeNumbers(unittest.TestCase):
         """test that one is included as a prime."""
         self.assertIn(1, primeNumbers(3))
 
-   
+if __name__ == '__main__':
+    unittest.main()
